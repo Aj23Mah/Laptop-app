@@ -1,0 +1,53 @@
+.service{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.service h1{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 20px 0;
+}
+.service-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 10px 15px;
+    gap: 1rem;
+}
+.service-box{
+    background-color: rgba(255, 255, 255, 0.5);
+    /* border: 1px solid rgba(0, 0, 0, 0.8); */
+    border-radius: 15px;
+    box-shadow: 5px 10px #888888;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.service-box img{
+    margin: 8px;
+}
+.service-box p{
+    font-size: 17px;
+}
+.service-box span{
+    font-size: 20px;
+    font-weight: bold;
+}
+.service-box button{
+    font-size: 15px;
+    padding: 8px 15px;
+    margin: 10px;
+    border: 1px solid #222;
+    border-radius: 15px;
+    cursor: pointer;
+    background-color: #222;
+    color: #fff;
+}
+.service-box button:hover{
+    background-color: #fff;
+    color: #F4922F;
+}

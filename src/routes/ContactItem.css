@@ -1,0 +1,43 @@
+.phone-img{
+    /* justify-content: center;
+    align-items: center; */
+    /* background: linear-gradient(rgba(30, 30, 30, 0.2), rgba(30, 30, 30, 0.2)); */
+    height: 400px;
+    width: 100%;
+    background-image: url(https://imgs.search.brave.com/1HrZ1WV1gZgzrXeATwqy7fPDXbP__Ub8ByKGNpo1IV4/rs:fit:1200:692:1/g:ce/aHR0cHM6Ly93d3cu/c3NhdWsuY29tL3N0/YXRpYy9lZWRjZDdm/My01M2FiLTQ1Mjgt/OTRmNzhiODIyMzUz/OGM1Ny9jb250YWN0/LXVzLWJhbm5lci5q/cGc);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.phone-container{
+    text-align: center;
+    line-height: 30px;
+    background: rgba(0, 0, 0, 0.4);
+}
+.phone-container h1{
+    font-size: 25px;
+    padding: 20px 0;
+}
+.phone-container p{
+    font-size: 20px;
+    font-weight: 600;
+    padding: 5px 0;
+}
+.phone-container input {
+    padding: 10px 10px;
+    border: 1px solid #222;
+    border-radius: 20px;
+}
+.phone-container button{
+    border: 1px solid #222;
+    border-radius: 15px;
+    padding: 8px 20px;
+    font-size: 20px;
+    margin: 20px 0;
+    background-color: #222;
+    color: #fff;
+    cursor: pointer;
+}
+.phone-container button:hover{
+    background-color: #fff;
+    color: #222;
+}
